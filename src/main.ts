@@ -12,6 +12,6 @@ if (environment.production) {
 //   .catch(err => console.log(err));
 platformBrowserDynamic().bootstrapModule(AppModule).then(() => {
   if ('serviceWorker' in navigator && environment.production) {
-    navigator.serviceWorker.register('/ngsw-worker.js');
+    navigator.serviceWorker.register('/kleveron-scikey/ngsw-worker.js');
   }
 }).catch(err => console.log(err));
