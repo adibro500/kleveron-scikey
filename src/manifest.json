@@ -1,0 +1,15 @@
+{
+    "short_name":"IObjectApp",
+    "name":"I Object App",
+    "start_url":"/",
+    "theme_color":"#f48c5b",
+    "background_color":"#ffffff",
+    "display":"standalone",
+    "orientation":"portrait",
+    "icons":[
+      {
+        "src":"./assets/images/icons/login-bg.png",
+        "type":"image/png"
+      }
+    ]
+  }

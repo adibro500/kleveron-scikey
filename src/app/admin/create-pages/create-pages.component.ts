@@ -1285,10 +1285,5 @@ export class CreatePagesComponent implements OnInit, OnDestroy {
       });
     });
     /* UI helper code ends */
-
-
   }
-
-
-
 }
